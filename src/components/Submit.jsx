@@ -5,7 +5,9 @@ export default function Submit() {
 
   return (
     <p className="actions">
-      <button type="submit" disabled={pending}>{pending ? "Submitting...." : "Submit"}</button>
+      <button type="submit" disabled={pending}>
+        {pending ? "Submitting...." : "Submit"}
+      </button>
     </p>
   );
 }
